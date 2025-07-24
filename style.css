@@ -19,6 +19,9 @@ body {
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 
 }
 
@@ -38,6 +41,7 @@ body {
 .navbar__s2 input {
     border: none;
     width: 100%;
+    background-color: transparent;
 }
 
 .navbar__s2 input:focus {
@@ -67,6 +71,19 @@ body {
 
 .img img {
     width: 100%;
+    position: absolute;
+}
+.img__offer{
+    position: relative;
+    border: solid black 2px;
+    top: 30px;
+    width: 35%;
+    padding: 2%;
+    left: 10%;
+    background-color: white;
+    
+    
+
 }
 
 .recommended {
